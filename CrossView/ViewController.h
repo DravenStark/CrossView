@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
+@property (weak, nonatomic) IBOutlet UIView *viewB;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *centerConstraint;
+
 @end
